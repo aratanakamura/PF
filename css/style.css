@@ -71,6 +71,7 @@ header li:hover {
 
 /* メイン */
 .main {
+  background-image: url("working-690680__340.webp");
   height: 750px;
   background-repeat: no-repeat;
   background-size: cover;
