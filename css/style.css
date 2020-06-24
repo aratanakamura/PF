@@ -71,8 +71,8 @@ header li:hover {
 
 /* メイン */
 .main {
-  background-image: url("working-690680__340.webp");
   height: 750px;
+  background-image: url("working-690680__340.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -384,4 +384,3 @@ header li:hover {
   text-align: center;
   background-color: antiquewhite;
 }
-
