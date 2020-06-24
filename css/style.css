@@ -1,0 +1,386 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  margin: 0 auto;
+}
+
+/*  */
+.to-top {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  right: 0;
+  bottom: 0;
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  z-index: 10;
+}
+
+/* ナビゲーションバー */
+.nav_fixed {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.navigation_bar {
+  height: 60px;
+  background-color: rgb(238, 229, 229);
+  border: solid 1px;
+  cursor: pointer;
+}
+
+header ul {
+  display: flex;
+  text-align: center;
+}
+
+header li {
+  width: calc(100% / 5);
+  list-style: none;
+  line-height: 60px;
+  border-left: solid 1px #ffffff;
+  font-size: 15px;
+}
+
+header li:hover {
+  opacity: 0.8;
+  background-color: #b39d9d;
+  color: #0447ff;
+}
+
+@media (max-width: 540px) {
+  .nav_deliverable {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 540px) {
+  .nav_inquiry_form {
+    font-size: 11px;
+  }
+}
+
+/* メイン */
+.main {
+  height: 750px;
+  background-image: url("working-690680__340.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main_text {
+  text-align: center;
+  font-size: 70px;
+  padding-top: 320px;
+  color: #fff;
+}
+
+/* 自己紹介 */
+.self_introduction_about {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 70px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.self_i {
+  margin-bottom: 100px;
+}
+
+.self_introduction_detail {
+  margin: 0 auto;
+}
+
+.self_introduction_detail ul {
+  width: 30%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.self_introduction_detail li {
+  margin-top: 15px;
+}
+
+.self_img {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.self_img_photo {
+  height: 200px;
+  width: 200px;
+  border-radius: 30px;
+  margin-bottom: 200px;
+}
+
+/* スキル */
+.my_skill {
+  background-color: rgb(38, 167, 81);
+  text-align: center;
+}
+
+.my_skill_title {
+  font-size: 35px;
+  padding-top: 70px;
+  font-weight: bold;
+}
+
+.my_skill_container {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.my_skill_flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.my_skill_flex_box {
+  height: 200px;
+  width: 450px;
+  margin: 0 auto;
+}
+
+/* フォントオーサム */
+.font {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  font-size: 50px;
+}
+
+/* エンジニア案件 */
+.my_text_engin {
+  font-size: 30px;
+}
+
+.font2 {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  font-size: 70px;
+}
+
+/* スキル3つ目 */
+.my_skill_flex_box3 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.font3 {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  font-size: 70px;
+}
+
+.my_text_engin3 {
+  font-size: 30px;
+}
+
+/* PF */
+
+.service_contents_text {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.service_contents_text2 {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.skill_set {
+  width: 100%;
+}
+
+.PF {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.PF a {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.a1 {
+  height: 400px;
+  width: 350px;
+  background-color: rgb(238, 217, 217);
+  border: solid 2px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.a1:hover {
+  opacity: 0.8;
+  background-color: #b39d9d;
+  color: #26c255;
+}
+
+.PF_1 {
+  max-width: 100%;
+  margin-top: 130px;
+}
+
+.a2 {
+  height: 400px;
+  width: 350px;
+  background-color: rgb(238, 217, 217);
+  border: solid 2px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.a2:hover {
+  opacity: 0.8;
+  background-color: #b39d9d;
+  color: #26c255;
+}
+
+.PF_2 {
+  max-width: 100%;
+  margin-top: 90px;
+}
+
+.PF_2:hover {
+  opacity: 0.8;
+  background-color: #b39d9d;
+  color: #26c255;
+}
+
+.PF_3 {
+  height: 400px;
+  width: 350px;
+  margin: 0 auto;
+  background-color: rgb(238, 217, 217);
+  border: solid 2px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.PF_3:hover {
+  opacity: 0.8;
+  background-color: #b39d9d;
+  color: #26c255;
+}
+
+.PF_4 {
+  height: 400px;
+  width: 350px;
+  margin: 0 auto;
+  background-color: rgb(238, 217, 217);
+  border: solid 2px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.PF_4:hover {
+  opacity: 0.8;
+  background-color: #b39d9d;
+  color: #26c255;
+}
+
+.PF_4_img {
+  height: auto;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 150px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.PF_5 {
+  height: 400px;
+  width: 350px;
+  margin: 0 auto;
+  background-color: rgb(238, 217, 217);
+  border: solid 2px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.PF_6 {
+  height: 400px;
+  width: 350px;
+  margin: 0 auto;
+  background-color: rgb(238, 217, 217);
+  border: solid 2px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+/* 問い合わせ */
+.inquiry_form {
+  height: 400px;
+  background-color: antiquewhite;
+  margin-top: 150px;
+}
+
+.inquiry {
+  text-align: center;
+  height: 80px;
+}
+
+.inquiry_text {
+  padding-top: 50px;
+  font-weight: bold;
+}
+
+.request {
+  margin: 0 auto;
+  height: 100px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* アイコン */
+.icons {
+  text-align: center;
+  font-size: 30px;
+}
+
+.icons i {
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.icons i:hover {
+  opacity: 0.5;
+}
+
+.name {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.mail {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.inquiry_form_copyright {
+  text-align: center;
+  background-color: antiquewhite;
+}
